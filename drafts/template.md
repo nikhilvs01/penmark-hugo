@@ -1,8 +1,10 @@
 ---
 
-date: "[[created|%Y-%m-%dT%H:%M:%S]]"
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 draft: true
-tags: ["", ""]
-type: "post"
+description: ""
+categories: []
+tags: []
 
 ---
