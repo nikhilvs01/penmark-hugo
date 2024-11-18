@@ -1,6 +1,9 @@
 ---
-title: "Post"
-date: 2024-11-18T07:41:10+02:00
+
+title: "{{ title }}" # The title of the post, entered dynamically
+date: "{{ date }}"
 draft: false
+data: "{{data}}"
+content: "{{content}}"
+
 ---
-Have a look at my blog posts!
